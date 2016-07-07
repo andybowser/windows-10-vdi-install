@@ -16,19 +16,6 @@
     - Run disk defrag and optimize boot files: defrag c: /v /b
     - If using a dynamic virtual disk, use the vendor's utilities to perform a "shrink" operation
 
-    // ************* 
-    // *  CAUTION  * 
-    // ************* 
-
-    THIS SCRIPT MAKES CONSIDERABLE CHANGES TO THE DEFAULT CONFIGURATION OF WINDOWS.
-
-    Please review this script THOROUGHLY before applying to your virtual machine, and disable changes below as necessary to suit your current
-    environment.
-
-    This script is provided AS-IS - usage of this source assumes that you are at the very least familiar with PowerShell, and the tools used
-    to create and debug this script.
-
-    In other words, if you break it, you get to keep the pieces.
 .PARAMETER NoWarn
     Removes the warning prompts at the beginning and end of the script - do this only when you're sure everything works properly!
 .EXAMPLE
