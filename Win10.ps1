@@ -48,11 +48,7 @@ If ($NoWarn -eq $False)
     Write-Host ""
     Write-Host "Please review this script THOROUGHLY before applying to your virtual machine, and disable changes below as necessary to suit your current environment." -ForegroundColor Yellow
     Write-Host ""
-    Write-Host "This script is provided AS-IS - usage of this source assumes that you are at the very least familiar with PowerShell, and the tools used to create and debug this script." -ForegroundColor Yellow
-    Write-Host ""
-    Write-Host ""
-    Write-Host "In other words, if you break it, you get to keep the pieces." -ForegroundColor Magenta
-    Write-Host ""
+    Write-Host "Works on Windows 10 Enterprise only" -ForegroundColor Yellow
     Write-Host ""
 }
 
